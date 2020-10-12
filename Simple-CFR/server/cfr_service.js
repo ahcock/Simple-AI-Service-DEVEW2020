@@ -6,8 +6,8 @@ var app = express();
 // var client_id = '{YOUR_CLIENT_ID}';
 // var client_secret = '{YOUR_SECRET_KEY}';
 
-var client_id = '7u57invtu8';
-var client_secret = 'UG8yttNa5ALcWwVd5bS03P87w1qDhyDGA0Nw4WLF';
+var client_id = '{YOUR_CLIENT_ID}';
+var client_secret = '{YOUR_SECRET_KEY}';
 
 /* Express URL Call & Work Response Data */
 var fs = require('fs');

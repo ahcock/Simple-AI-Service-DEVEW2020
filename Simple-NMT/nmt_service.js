@@ -11,8 +11,8 @@ var app = express();
 /* Definition of Cliend ID & Secret Key Variable */
 // var client_id = '{YOUR_NMT_CLIENT_ID}';
 // var client_secret = '{YOUR_NMT_SECRET_KEY}';
-var client_id = '7fgu5rxj2w';
-var client_secret = 'yyGSIHhrG02ve9mcidRkuf6mlatIgzam9am11UUK';
+var client_id = '{YOUR_CLIENT_ID}';
+var client_secret = '{YOUR_SECRET_KEY}';
 
 app.get('/naverSearchAPI/:query', function (req, res) {
 
@@ -22,10 +22,8 @@ app.get('/naverSearchAPI/:query', function (req, res) {
   /* Definition of NAVER Search Open API Cliend ID & Secret Key Variable */
   var config = {
     headers: {
-      // 'X-Naver-Client-Id' : '{YOUR_NAVER_SEARCH_CLIENT_ID}',
-      // 'X-Naver-Client-Secret' : '{YOUR_NAVER_SEARCH_SECRET_KEY}'
-      'X-Naver-Client-Id' : 'dKOtBRuD3Lq5XXkoQS07',
-      'X-Naver-Client-Secret' : 'Utv6o9mrTL'
+      'X-Naver-Client-Id' : '{YOUR_NAVER_SEARCH_CLIENT_ID}',
+      'X-Naver-Client-Secret' : '{YOUR_NAVER_SEARCH_SECRET_KEY}'
     }
   };
 
